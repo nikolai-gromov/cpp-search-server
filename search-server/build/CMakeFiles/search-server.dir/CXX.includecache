@@ -9,6 +9,8 @@
 /home/nikolai/practicum/cpp-search-server/search-server/main.cpp
 algorithm
 -
+numeric
+-
 cmath
 -
 iostream
@@ -17,11 +19,11 @@ map
 -
 set
 -
+vector
+-
 string
 -
 utility
--
-vector
 -
 stdexcept
 -

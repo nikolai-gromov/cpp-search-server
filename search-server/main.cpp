@@ -1,11 +1,12 @@
 #include <algorithm>
+#include <numeric>
 #include <cmath>
 #include <iostream>
 #include <map>
 #include <set>
+#include <vector>
 #include <string>
 #include <utility>
-#include <vector>
 #include <stdexcept>
 
 using namespace std;
@@ -116,10 +117,11 @@ public:
     vector<Document> FindTopDocuments(const string& raw_query, DocumentPredicate document_predicate) const {
         const Query query = ParseQuery(raw_query);
         auto matched_documents = FindAllDocuments(query, document_predicate);
+        const double epsilon = 1e-6;
 
         sort(matched_documents.begin(), matched_documents.end(),
-             [](const Document& lhs, const Document& rhs) {
-                 if (abs(lhs.relevance - rhs.relevance) < 1e-6) {
+             [epsilon](const Document& lhs, const Document& rhs) {
+                 if (abs(lhs.relevance - rhs.relevance) < epsilon) {
                      return lhs.rating > rhs.rating;
                  } else {
                      return lhs.relevance > rhs.relevance;
@@ -203,10 +205,7 @@ private:
         if (ratings.empty()) {
             return 0;
         }
-        int rating_sum = 0;
-        for (const int rating : ratings) {
-            rating_sum += rating;
-        }
+        int rating_sum = accumulate(ratings.begin(), ratings.end(), 0);
         return rating_sum / static_cast<int>(ratings.size());
     }
 
@@ -673,7 +672,7 @@ void TestComputeRelevanceOfFoundDocuments() {
     const string doc3_content = "beautiful starling eugene"s;
     const vector<int> doc3_ratings = {9};
 
-    const double EPSILON = 1e-6;
+    const double epsilon = 1e-6;
 
     {
         SearchServer server("a and"s);
@@ -686,14 +685,14 @@ void TestComputeRelevanceOfFoundDocuments() {
         const double doc3_absolute_value = abs(found_docs[1].relevance - 0.231049);
         const double doc0_absolute_value = abs(found_docs[2].relevance - 0.173287);
         const double doc2_absolute_value = abs(found_docs[3].relevance - 0.173287);
-        ASSERT_HINT(doc1_absolute_value < EPSILON,
-                    "The difference in calculating the relevance of the found documents should fit into the error (EPSILON)"s);
-        ASSERT_HINT(doc3_absolute_value < EPSILON,
-                    "The difference in calculating the relevance of the found documents should fit into the error (EPSILON)"s);
-        ASSERT_HINT(doc0_absolute_value < EPSILON,
-                    "The difference in calculating the relevance of the found documents should fit into the error (EPSILON)"s);
-        ASSERT_HINT(doc2_absolute_value < EPSILON,
-                    "The difference in calculating the relevance of the found documents should fit into the error (EPSILON)"s);
+        ASSERT_HINT(doc1_absolute_value < epsilon,
+                    "The difference in calculating the relevance of the found documents should fit into the error (epsilon)"s);
+        ASSERT_HINT(doc3_absolute_value < epsilon,
+                    "The difference in calculating the relevance of the found documents should fit into the error (epsilon)"s);
+        ASSERT_HINT(doc0_absolute_value < epsilon,
+                    "The difference in calculating the relevance of the found documents should fit into the error (epsilon)"s);
+        ASSERT_HINT(doc2_absolute_value < epsilon,
+                    "The difference in calculating the relevance of the found documents should fit into the error (epsilon)"s);
     }
 
 }
