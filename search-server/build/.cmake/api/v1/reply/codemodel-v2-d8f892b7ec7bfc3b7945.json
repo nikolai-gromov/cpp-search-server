@@ -54,7 +54,7 @@
 					[
 						0
 					],
-					"name" : "search-server",
+					"name" : "main",
 					"targetIndexes" : 
 					[
 						0,
@@ -289,9 +289,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "search-server::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-search-server-Debug-7dc0a67c8cf64c7f521d.json",
-					"name" : "search-server",
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-f0ea4a4f88130d29398e.json",
+					"name" : "main",
 					"projectIndex" : 0
 				}
 			]

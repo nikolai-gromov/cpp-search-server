@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nikolai/practicum/cpp-search-server/search-server/main.cpp" "/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/search-server.dir/main.cpp.o"
+  "/home/nikolai/practicum/cpp-search-server/search-server/main.cpp" "/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

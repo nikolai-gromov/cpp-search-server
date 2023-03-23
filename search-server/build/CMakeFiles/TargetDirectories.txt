@@ -3,7 +3,6 @@
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/package_source.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/edit_cache.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/NightlyMemCheck.dir
-/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/NightlyTest.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/ContinuousConfigure.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/ContinuousBuild.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/NightlyConfigure.dir
@@ -17,6 +16,8 @@
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/ContinuousCoverage.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/ExperimentalConfigure.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/Continuous.dir
+/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/NightlyTest.dir
+/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/main.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/Nightly.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/NightlySubmit.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/NightlyStart.dir
@@ -31,4 +32,3 @@
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/ContinuousMemCheck.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/ContinuousTest.dir
 /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/ContinuousSubmit.dir
-/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/search-server.dir

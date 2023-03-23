@@ -1,8 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "search-server"
+			"path" : "libmain.a"
 		}
 	],
 	"backtrace" : 1,
@@ -10,7 +11,7 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_library"
 		],
 		"files" : 
 		[
@@ -45,24 +46,9 @@
 			]
 		}
 	],
-	"id" : "search-server::@6890427a1f51a3e7e1df",
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "-rdynamic",
-				"role" : "flags"
-			}
-		],
-		"language" : "CXX"
-	},
-	"name" : "search-server",
-	"nameOnDisk" : "search-server",
+	"id" : "main::@6890427a1f51a3e7e1df",
+	"name" : "main",
+	"nameOnDisk" : "libmain.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -87,5 +73,5 @@
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "STATIC_LIBRARY"
 }

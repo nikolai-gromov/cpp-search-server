@@ -150,7 +150,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=search-server
+CMAKE_PROJECT_NAME:STATIC=main
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1.0
@@ -330,10 +330,10 @@ SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
 
 //Value Computed by CMake
-search-server_BINARY_DIR:STATIC=/home/nikolai/practicum/cpp-search-server/search-server/build
+main_BINARY_DIR:STATIC=/home/nikolai/practicum/cpp-search-server/search-server/build
 
 //Value Computed by CMake
-search-server_SOURCE_DIR:STATIC=/home/nikolai/practicum/cpp-search-server/search-server
+main_SOURCE_DIR:STATIC=/home/nikolai/practicum/cpp-search-server/search-server
 
 
 ########################

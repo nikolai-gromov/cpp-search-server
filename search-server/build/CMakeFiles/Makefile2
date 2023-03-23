@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/nikolai/practicum/cpp-search-server/search-server/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/search-server.dir/all
+all: CMakeFiles/main.dir/all
 
 .PHONY : all
 
@@ -64,7 +64,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/NightlyMemCheck.dir/clean
-clean: CMakeFiles/NightlyTest.dir/clean
 clean: CMakeFiles/ContinuousConfigure.dir/clean
 clean: CMakeFiles/ContinuousBuild.dir/clean
 clean: CMakeFiles/NightlyConfigure.dir/clean
@@ -78,6 +77,8 @@ clean: CMakeFiles/Experimental.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ExperimentalConfigure.dir/clean
 clean: CMakeFiles/Continuous.dir/clean
+clean: CMakeFiles/NightlyTest.dir/clean
+clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/Nightly.dir/clean
 clean: CMakeFiles/NightlySubmit.dir/clean
 clean: CMakeFiles/NightlyStart.dir/clean
@@ -91,7 +92,6 @@ clean: CMakeFiles/ContinuousStart.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: CMakeFiles/search-server.dir/clean
 
 .PHONY : clean
 
@@ -121,33 +121,6 @@ NightlyMemCheck: CMakeFiles/NightlyMemCheck.dir/rule
 CMakeFiles/NightlyMemCheck.dir/clean:
 	$(MAKE) -f CMakeFiles/NightlyMemCheck.dir/build.make CMakeFiles/NightlyMemCheck.dir/clean
 .PHONY : CMakeFiles/NightlyMemCheck.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/NightlyTest.dir
-
-# All Build rule for target.
-CMakeFiles/NightlyTest.dir/all:
-	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/depend
-	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles --progress-num= "Built target NightlyTest"
-.PHONY : CMakeFiles/NightlyTest.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/NightlyTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NightlyTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles 0
-.PHONY : CMakeFiles/NightlyTest.dir/rule
-
-# Convenience name for target.
-NightlyTest: CMakeFiles/NightlyTest.dir/rule
-
-.PHONY : NightlyTest
-
-# clean rule for target.
-CMakeFiles/NightlyTest.dir/clean:
-	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/clean
-.PHONY : CMakeFiles/NightlyTest.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ContinuousConfigure.dir
@@ -501,6 +474,60 @@ CMakeFiles/Continuous.dir/clean:
 .PHONY : CMakeFiles/Continuous.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/NightlyTest.dir
+
+# All Build rule for target.
+CMakeFiles/NightlyTest.dir/all:
+	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/depend
+	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles --progress-num= "Built target NightlyTest"
+.PHONY : CMakeFiles/NightlyTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/NightlyTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/NightlyTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles 0
+.PHONY : CMakeFiles/NightlyTest.dir/rule
+
+# Convenience name for target.
+NightlyTest: CMakeFiles/NightlyTest.dir/rule
+
+.PHONY : NightlyTest
+
+# clean rule for target.
+CMakeFiles/NightlyTest.dir/clean:
+	$(MAKE) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/clean
+.PHONY : CMakeFiles/NightlyTest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main.dir
+
+# All Build rule for target.
+CMakeFiles/main.dir/all:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles --progress-num=1,2 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: CMakeFiles/main.dir/rule
+
+.PHONY : main
+
+# clean rule for target.
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Nightly.dir
 
 # All Build rule for target.
@@ -850,33 +877,6 @@ ContinuousSubmit: CMakeFiles/ContinuousSubmit.dir/rule
 CMakeFiles/ContinuousSubmit.dir/clean:
 	$(MAKE) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/clean
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/search-server.dir
-
-# All Build rule for target.
-CMakeFiles/search-server.dir/all:
-	$(MAKE) -f CMakeFiles/search-server.dir/build.make CMakeFiles/search-server.dir/depend
-	$(MAKE) -f CMakeFiles/search-server.dir/build.make CMakeFiles/search-server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles --progress-num=1,2 "Built target search-server"
-.PHONY : CMakeFiles/search-server.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/search-server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/search-server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles 0
-.PHONY : CMakeFiles/search-server.dir/rule
-
-# Convenience name for target.
-search-server: CMakeFiles/search-server.dir/rule
-
-.PHONY : search-server
-
-# clean rule for target.
-CMakeFiles/search-server.dir/clean:
-	$(MAKE) -f CMakeFiles/search-server.dir/build.make CMakeFiles/search-server.dir/clean
-.PHONY : CMakeFiles/search-server.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
