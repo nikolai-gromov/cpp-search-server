@@ -8,6 +8,7 @@ CMakeFiles/main.dir/main.cpp.o: ../paginator.h
 CMakeFiles/main.dir/main.cpp.o: ../read_input_functions.h
 CMakeFiles/main.dir/main.cpp.o: ../request_queue.cpp
 CMakeFiles/main.dir/main.cpp.o: ../request_queue.h
+CMakeFiles/main.dir/main.cpp.o: ../search_server.cpp
 CMakeFiles/main.dir/main.cpp.o: ../search_server.h
 CMakeFiles/main.dir/main.cpp.o: ../string_processing.cpp
 CMakeFiles/main.dir/main.cpp.o: ../string_processing.h

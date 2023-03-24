@@ -11,6 +11,10 @@ document.h
 /home/nikolai/practicum/cpp-search-server/search-server/document.h
 
 /home/nikolai/practicum/cpp-search-server/search-server/document.h
+iostream
+-
+string
+-
 
 /home/nikolai/practicum/cpp-search-server/search-server/main.cpp
 iostream
@@ -19,8 +23,8 @@ string
 -
 read_input_functions.h
 /home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.h
-search_server.h
-/home/nikolai/practicum/cpp-search-server/search-server/search_server.h
+search_server.cpp
+/home/nikolai/practicum/cpp-search-server/search-server/search_server.cpp
 paginator.h
 /home/nikolai/practicum/cpp-search-server/search-server/paginator.h
 request_queue.cpp
@@ -30,10 +34,6 @@ test_example_functions.h
 
 /home/nikolai/practicum/cpp-search-server/search-server/paginator.h
 iostream
--
-algorithm
--
-string
 -
 vector
 -
@@ -57,6 +57,10 @@ vector
 -
 string
 -
+search_server.h
+/home/nikolai/practicum/cpp-search-server/search-server/search_server.h
+
+/home/nikolai/practicum/cpp-search-server/search-server/search_server.cpp
 search_server.h
 /home/nikolai/practicum/cpp-search-server/search-server/search_server.h
 
@@ -107,6 +111,4 @@ string
 -
 search_server.h
 /home/nikolai/practicum/cpp-search-server/search-server/search_server.h
-paginator.h
-/home/nikolai/practicum/cpp-search-server/search-server/paginator.h
 

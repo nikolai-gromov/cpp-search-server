@@ -1,4 +1,8 @@
 #pragma once
+#include <iostream>
+#include <string>
+
+using namespace std::string_literals;
 
 struct Document {
     Document() = default;
@@ -14,3 +18,5 @@ enum class DocumentStatus {
     BANNED,
     REMOVED,
 };
+
+std::ostream& operator<<(std::ostream& out, const Document& document);

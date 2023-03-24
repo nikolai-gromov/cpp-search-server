@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "read_input_functions.h"
-#include "search_server.h"
+#include "search_server.cpp"
 #include "paginator.h"
 #include "request_queue.cpp"
 #include "test_example_functions.h"
