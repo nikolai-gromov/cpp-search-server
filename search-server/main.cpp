@@ -1,12 +1,14 @@
+#include "read_input_functions.h"
+#include "search_server.h"
+#include "paginator.h"
+#include "request_queue.h"
+#include "test_example_functions.h"
 #include <iostream>
 #include <string>
-#include "read_input_functions.h"
-#include "search_server.cpp"
-#include "paginator.h"
-#include "request_queue.cpp"
-#include "test_example_functions.h"
+#include <vector>
 
 using namespace std::string_literals;
+using namespace std;
 
 int main() {
     {

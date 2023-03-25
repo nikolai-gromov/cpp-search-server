@@ -1,5 +1,10 @@
 #include "search_server.h"
 
+SearchServer::SearchServer(const std::string& stop_words_text)
+    : SearchServer(SplitIntoWords(stop_words_text))
+{
+}
+
 void SearchServer::AddDocument(int document_id, const std::string& document, DocumentStatus status,
                      const std::vector<int>& ratings) {
     if ((document_id < 0) || (documents_.count(document_id) > 0)) {

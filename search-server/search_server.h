@@ -9,8 +9,8 @@
 #include <vector>
 #include <stdexcept>
 
-#include "document.cpp"
-#include "string_processing.cpp"
+#include "document.h"
+#include "string_processing.h"
 
 using namespace std::string_literals;
 
@@ -82,11 +82,6 @@ SearchServer::SearchServer(const StringContainer& stop_words)
     if (!std::all_of(stop_words_.begin(), stop_words_.end(), IsValidWord)) {
         throw std::invalid_argument("Some of stop words are invalid"s);
     }
-}
-
-SearchServer::SearchServer(const std::string& stop_words_text)
-    : SearchServer(SplitIntoWords(stop_words_text))
-{
 }
 
 template <typename DocumentPredicate>

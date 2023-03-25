@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/nikolai/practicum/cpp-search-server/search-server/document.cpp
-document.h
-/home/nikolai/practicum/cpp-search-server/search-server/document.h
-
 /home/nikolai/practicum/cpp-search-server/search-server/document.h
 iostream
 -
@@ -17,20 +13,20 @@ string
 -
 
 /home/nikolai/practicum/cpp-search-server/search-server/main.cpp
-iostream
--
-string
--
 read_input_functions.h
 /home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.h
-search_server.cpp
-/home/nikolai/practicum/cpp-search-server/search-server/search_server.cpp
+search_server.h
+/home/nikolai/practicum/cpp-search-server/search-server/search_server.h
 paginator.h
 /home/nikolai/practicum/cpp-search-server/search-server/paginator.h
-request_queue.cpp
-/home/nikolai/practicum/cpp-search-server/search-server/request_queue.cpp
+request_queue.h
+/home/nikolai/practicum/cpp-search-server/search-server/request_queue.h
 test_example_functions.h
 /home/nikolai/practicum/cpp-search-server/search-server/test_example_functions.h
+iostream
+-
+string
+-
 
 /home/nikolai/practicum/cpp-search-server/search-server/paginator.h
 iostream
@@ -41,14 +37,8 @@ vector
 /home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.h
 string
 -
-vector
--
 iostream
 -
-
-/home/nikolai/practicum/cpp-search-server/search-server/request_queue.cpp
-request_queue.h
-/home/nikolai/practicum/cpp-search-server/search-server/request_queue.h
 
 /home/nikolai/practicum/cpp-search-server/search-server/request_queue.h
 deque
@@ -57,10 +47,6 @@ vector
 -
 string
 -
-search_server.h
-/home/nikolai/practicum/cpp-search-server/search-server/search_server.h
-
-/home/nikolai/practicum/cpp-search-server/search-server/search_server.cpp
 search_server.h
 /home/nikolai/practicum/cpp-search-server/search-server/search_server.h
 
@@ -83,12 +69,8 @@ vector
 -
 stdexcept
 -
-document.cpp
-/home/nikolai/practicum/cpp-search-server/search-server/document.cpp
-string_processing.cpp
-/home/nikolai/practicum/cpp-search-server/search-server/string_processing.cpp
-
-/home/nikolai/practicum/cpp-search-server/search-server/string_processing.cpp
+document.h
+/home/nikolai/practicum/cpp-search-server/search-server/document.h
 string_processing.h
 /home/nikolai/practicum/cpp-search-server/search-server/string_processing.h
 
