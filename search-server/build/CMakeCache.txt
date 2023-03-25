@@ -150,7 +150,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=main
+CMAKE_PROJECT_NAME:STATIC=search_server
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1.0
@@ -335,6 +335,12 @@ main_BINARY_DIR:STATIC=/home/nikolai/practicum/cpp-search-server/search-server/b
 //Value Computed by CMake
 main_SOURCE_DIR:STATIC=/home/nikolai/practicum/cpp-search-server/search-server
 
+//Value Computed by CMake
+search_server_BINARY_DIR:STATIC=/home/nikolai/practicum/cpp-search-server/search-server/build
+
+//Value Computed by CMake
+search_server_SOURCE_DIR:STATIC=/home/nikolai/practicum/cpp-search-server/search-server
+
 
 ########################
 # INTERNAL cache entries
@@ -360,8 +366,6 @@ CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 CMAKE_COMMAND:INTERNAL=/usr/bin/cmake
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/bin/cpack
-//ADVANCED property for variable: CMAKE_CTEST_COMMAND
-CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
 //ADVANCED property for variable: CMAKE_CXX_COMPILER

@@ -1,11 +1,25 @@
-cmake_minimum_required(VERSION 3.0.0)
-project(main VERSION 0.1.0)
+cmake_minimum_required(VERSION 3.16)
+project(search_server)
 
-include(CTest)
-enable_testing()
 
-add_library(main main.cpp)
+set(CMAKE_CXX_STANDARD 17)
 
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
+
+include_directories(.)
+
+
+add_executable(search_server
+        document.cpp
+        document.h
+        main.cpp
+        paginator.h
+        read_input_functions.cpp
+        read_input_functions.h
+        request_queue.cpp
+        request_queue.h
+        search_server.cpp
+        search_server.h
+        string_processing.cpp
+        string_processing.h
+        test_example_functions.cpp
+        test_example_functions.h)
