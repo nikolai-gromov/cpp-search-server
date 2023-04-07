@@ -14,6 +14,7 @@ void SearchServer::AddDocument(int document_id, const std::string& document, Doc
     const double inv_word_count = 1.0 / words.size();
     for (const std::string& word : words) {
         word_to_document_freqs_[word][document_id] += inv_word_count;
+        freqs_of_document_words_[document_id][word] += inv_word_count;
     }
     documents_.emplace(document_id, DocumentData{ComputeAverageRating(ratings), status});
     document_ids_.push_back(document_id);
@@ -34,8 +35,48 @@ int SearchServer::GetDocumentCount() const {
     return documents_.size();
 }
 
-int SearchServer::GetDocumentId(int index) const {
-    return document_ids_.at(index);
+std::vector<int>::const_iterator SearchServer::begin() const {
+    return document_ids_.begin();
+}
+
+std::vector<int>::const_iterator SearchServer::end() const {
+    return document_ids_.end();
+}
+
+const std::map<std::string, double>& SearchServer::GetWordFrequencies(int document_id) const {
+    static const std::map<std::string, double> empty_map;
+    if (freqs_of_document_words_.find(document_id) != freqs_of_document_words_.end()) {
+        return freqs_of_document_words_.at(document_id);
+    }
+    return empty_map;
+}
+
+void SearchServer::RemoveDocument(int document_id) {
+    for (auto it = documents_.begin(); it != documents_.end();) {
+        if (it->first == document_id) {
+            it = documents_.erase(it);
+        } else {
+            ++it;
+        }
+    }
+
+    for (auto [word, freq] : GetWordFrequencies(document_id)) {
+        for (auto it1 = word_to_document_freqs_.at(word).begin(); it1 != word_to_document_freqs_.at(word).end();) {
+            if (it1->first == document_id) {
+                it1 = word_to_document_freqs_.at(word).erase(it1);
+            } else {
+                ++it1;
+            }
+        }
+    }
+
+    for (auto it3 = document_ids_.begin(); it3 != document_ids_.end();) {
+        if (*it3 == document_id) {
+            it3 = document_ids_.erase(it3);
+        } else {
+            ++it3;
+        }
+    }
 }
 
 std::tuple<std::vector<std::string>, DocumentStatus> SearchServer::MatchDocument(const std::string& raw_query,

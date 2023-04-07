@@ -1,4 +1,7 @@
 #pragma once
+#include "document.h"
+#include "string_processing.h"
+
 #include <algorithm>
 #include <cmath>
 #include <numeric>
@@ -8,9 +11,7 @@
 #include <utility>
 #include <vector>
 #include <stdexcept>
-
-#include "document.h"
-#include "string_processing.h"
+#include <iterator>
 
 using namespace std::string_literals;
 
@@ -32,7 +33,13 @@ public:
 
     int GetDocumentCount() const;
 
-    int GetDocumentId(int index) const;
+    std::vector<int>::const_iterator begin() const;
+
+    std::vector<int>::const_iterator end() const;
+
+    const std::map<std::string, double>& GetWordFrequencies(int document_id) const;
+
+    void RemoveDocument(int document_id);
 
     std::tuple<std::vector<std::string>, DocumentStatus> MatchDocument(const std::string& raw_query, int document_id) const;
 
@@ -45,6 +52,7 @@ private:
     std::map<std::string, std::map<int, double>> word_to_document_freqs_;
     std::map<int, DocumentData> documents_;
     std::vector<int> document_ids_;
+    std::map<int, std::map<std::string, double>> freqs_of_document_words_;
 
     bool IsStopWord(const std::string& word) const;
 

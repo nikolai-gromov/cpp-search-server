@@ -226,6 +226,33 @@ read_input_functions.cpp.s:
 	$(MAKE) -f CMakeFiles/search_server.dir/build.make CMakeFiles/search_server.dir/read_input_functions.cpp.s
 .PHONY : read_input_functions.cpp.s
 
+remove_duplicates.o: remove_duplicates.cpp.o
+
+.PHONY : remove_duplicates.o
+
+# target to build an object file
+remove_duplicates.cpp.o:
+	$(MAKE) -f CMakeFiles/search_server.dir/build.make CMakeFiles/search_server.dir/remove_duplicates.cpp.o
+.PHONY : remove_duplicates.cpp.o
+
+remove_duplicates.i: remove_duplicates.cpp.i
+
+.PHONY : remove_duplicates.i
+
+# target to preprocess a source file
+remove_duplicates.cpp.i:
+	$(MAKE) -f CMakeFiles/search_server.dir/build.make CMakeFiles/search_server.dir/remove_duplicates.cpp.i
+.PHONY : remove_duplicates.cpp.i
+
+remove_duplicates.s: remove_duplicates.cpp.s
+
+.PHONY : remove_duplicates.s
+
+# target to generate assembly for a file
+remove_duplicates.cpp.s:
+	$(MAKE) -f CMakeFiles/search_server.dir/build.make CMakeFiles/search_server.dir/remove_duplicates.cpp.s
+.PHONY : remove_duplicates.cpp.s
+
 request_queue.o: request_queue.cpp.o
 
 .PHONY : request_queue.o
@@ -354,6 +381,9 @@ help:
 	@echo "... read_input_functions.o"
 	@echo "... read_input_functions.i"
 	@echo "... read_input_functions.s"
+	@echo "... remove_duplicates.o"
+	@echo "... remove_duplicates.i"
+	@echo "... remove_duplicates.s"
 	@echo "... request_queue.o"
 	@echo "... request_queue.i"
 	@echo "... request_queue.s"

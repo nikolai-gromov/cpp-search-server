@@ -11,10 +11,13 @@ include_directories(.)
 add_executable(search_server
         document.cpp
         document.h
+        log_duration.h
         main.cpp
         paginator.h
         read_input_functions.cpp
         read_input_functions.h
+        remove_duplicates.cpp
+        remove_duplicates.h
         request_queue.cpp
         request_queue.h
         search_server.cpp

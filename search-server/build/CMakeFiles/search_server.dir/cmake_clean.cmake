@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/search_server.dir/document.cpp.o"
   "CMakeFiles/search_server.dir/main.cpp.o"
   "CMakeFiles/search_server.dir/read_input_functions.cpp.o"
+  "CMakeFiles/search_server.dir/remove_duplicates.cpp.o"
   "CMakeFiles/search_server.dir/request_queue.cpp.o"
   "CMakeFiles/search_server.dir/search_server.cpp.o"
   "CMakeFiles/search_server.dir/string_processing.cpp.o"
