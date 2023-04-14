@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/nikolai/practicum/cpp-search-server/search-server/document.cpp
-document.h
-/home/nikolai/practicum/cpp-search-server/search-server/document.h
-
 /home/nikolai/practicum/cpp-search-server/search-server/document.h
 iostream
 -
@@ -49,10 +45,6 @@ iostream
 -
 vector
 -
-
-/home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.cpp
-read_input_functions.h
-/home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.h
 
 /home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.h
 string
@@ -111,10 +103,6 @@ stdexcept
 -
 iterator
 -
-
-/home/nikolai/practicum/cpp-search-server/search-server/string_processing.cpp
-string_processing.h
-/home/nikolai/practicum/cpp-search-server/search-server/string_processing.h
 
 /home/nikolai/practicum/cpp-search-server/search-server/string_processing.h
 vector
