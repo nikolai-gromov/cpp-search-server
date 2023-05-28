@@ -4,32 +4,32 @@
 CMakeFiles/search_server.dir/document.cpp.o: ../document.cpp
 CMakeFiles/search_server.dir/document.cpp.o: ../document.h
 
+CMakeFiles/search_server.dir/main.cpp.o: ../concurrent_map.h
 CMakeFiles/search_server.dir/main.cpp.o: ../document.h
 CMakeFiles/search_server.dir/main.cpp.o: ../log_duration.h
 CMakeFiles/search_server.dir/main.cpp.o: ../main.cpp
-CMakeFiles/search_server.dir/main.cpp.o: ../paginator.h
-CMakeFiles/search_server.dir/main.cpp.o: ../read_input_functions.h
-CMakeFiles/search_server.dir/main.cpp.o: ../remove_duplicates.h
-CMakeFiles/search_server.dir/main.cpp.o: ../request_queue.h
+CMakeFiles/search_server.dir/main.cpp.o: ../process_queries.h
 CMakeFiles/search_server.dir/main.cpp.o: ../search_server.h
 CMakeFiles/search_server.dir/main.cpp.o: ../string_processing.h
-CMakeFiles/search_server.dir/main.cpp.o: ../test_example_functions.h
+
+CMakeFiles/search_server.dir/process_queries.cpp.o: ../concurrent_map.h
+CMakeFiles/search_server.dir/process_queries.cpp.o: ../document.h
+CMakeFiles/search_server.dir/process_queries.cpp.o: ../process_queries.cpp
+CMakeFiles/search_server.dir/process_queries.cpp.o: ../process_queries.h
+CMakeFiles/search_server.dir/process_queries.cpp.o: ../search_server.h
+CMakeFiles/search_server.dir/process_queries.cpp.o: ../string_processing.h
 
 CMakeFiles/search_server.dir/read_input_functions.cpp.o: ../read_input_functions.cpp
 CMakeFiles/search_server.dir/read_input_functions.cpp.o: ../read_input_functions.h
 
-CMakeFiles/search_server.dir/remove_duplicates.cpp.o: ../document.h
-CMakeFiles/search_server.dir/remove_duplicates.cpp.o: ../remove_duplicates.cpp
-CMakeFiles/search_server.dir/remove_duplicates.cpp.o: ../remove_duplicates.h
-CMakeFiles/search_server.dir/remove_duplicates.cpp.o: ../search_server.h
-CMakeFiles/search_server.dir/remove_duplicates.cpp.o: ../string_processing.h
-
+CMakeFiles/search_server.dir/request_queue.cpp.o: ../concurrent_map.h
 CMakeFiles/search_server.dir/request_queue.cpp.o: ../document.h
 CMakeFiles/search_server.dir/request_queue.cpp.o: ../request_queue.cpp
 CMakeFiles/search_server.dir/request_queue.cpp.o: ../request_queue.h
 CMakeFiles/search_server.dir/request_queue.cpp.o: ../search_server.h
 CMakeFiles/search_server.dir/request_queue.cpp.o: ../string_processing.h
 
+CMakeFiles/search_server.dir/search_server.cpp.o: ../concurrent_map.h
 CMakeFiles/search_server.dir/search_server.cpp.o: ../document.h
 CMakeFiles/search_server.dir/search_server.cpp.o: ../search_server.cpp
 CMakeFiles/search_server.dir/search_server.cpp.o: ../search_server.h
@@ -38,6 +38,7 @@ CMakeFiles/search_server.dir/search_server.cpp.o: ../string_processing.h
 CMakeFiles/search_server.dir/string_processing.cpp.o: ../string_processing.cpp
 CMakeFiles/search_server.dir/string_processing.cpp.o: ../string_processing.h
 
+CMakeFiles/search_server.dir/test_example_functions.cpp.o: ../concurrent_map.h
 CMakeFiles/search_server.dir/test_example_functions.cpp.o: ../document.h
 CMakeFiles/search_server.dir/test_example_functions.cpp.o: ../search_server.h
 CMakeFiles/search_server.dir/test_example_functions.cpp.o: ../string_processing.h

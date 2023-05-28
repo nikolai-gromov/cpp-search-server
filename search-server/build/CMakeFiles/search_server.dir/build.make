@@ -83,9 +83,22 @@ CMakeFiles/search_server.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_server.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikolai/practicum/cpp-search-server/search-server/main.cpp -o CMakeFiles/search_server.dir/main.cpp.s
 
+CMakeFiles/search_server.dir/process_queries.cpp.o: CMakeFiles/search_server.dir/flags.make
+CMakeFiles/search_server.dir/process_queries.cpp.o: ../process_queries.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/search_server.dir/process_queries.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/search_server.dir/process_queries.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/process_queries.cpp
+
+CMakeFiles/search_server.dir/process_queries.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/search_server.dir/process_queries.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikolai/practicum/cpp-search-server/search-server/process_queries.cpp > CMakeFiles/search_server.dir/process_queries.cpp.i
+
+CMakeFiles/search_server.dir/process_queries.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_server.dir/process_queries.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikolai/practicum/cpp-search-server/search-server/process_queries.cpp -o CMakeFiles/search_server.dir/process_queries.cpp.s
+
 CMakeFiles/search_server.dir/read_input_functions.cpp.o: CMakeFiles/search_server.dir/flags.make
 CMakeFiles/search_server.dir/read_input_functions.cpp.o: ../read_input_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/search_server.dir/read_input_functions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/search_server.dir/read_input_functions.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/search_server.dir/read_input_functions.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.cpp
 
 CMakeFiles/search_server.dir/read_input_functions.cpp.i: cmake_force
@@ -95,19 +108,6 @@ CMakeFiles/search_server.dir/read_input_functions.cpp.i: cmake_force
 CMakeFiles/search_server.dir/read_input_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_server.dir/read_input_functions.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.cpp -o CMakeFiles/search_server.dir/read_input_functions.cpp.s
-
-CMakeFiles/search_server.dir/remove_duplicates.cpp.o: CMakeFiles/search_server.dir/flags.make
-CMakeFiles/search_server.dir/remove_duplicates.cpp.o: ../remove_duplicates.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/search_server.dir/remove_duplicates.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/search_server.dir/remove_duplicates.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/remove_duplicates.cpp
-
-CMakeFiles/search_server.dir/remove_duplicates.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/search_server.dir/remove_duplicates.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikolai/practicum/cpp-search-server/search-server/remove_duplicates.cpp > CMakeFiles/search_server.dir/remove_duplicates.cpp.i
-
-CMakeFiles/search_server.dir/remove_duplicates.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_server.dir/remove_duplicates.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikolai/practicum/cpp-search-server/search-server/remove_duplicates.cpp -o CMakeFiles/search_server.dir/remove_duplicates.cpp.s
 
 CMakeFiles/search_server.dir/request_queue.cpp.o: CMakeFiles/search_server.dir/flags.make
 CMakeFiles/search_server.dir/request_queue.cpp.o: ../request_queue.cpp
@@ -165,8 +165,8 @@ CMakeFiles/search_server.dir/test_example_functions.cpp.s: cmake_force
 search_server_OBJECTS = \
 "CMakeFiles/search_server.dir/document.cpp.o" \
 "CMakeFiles/search_server.dir/main.cpp.o" \
+"CMakeFiles/search_server.dir/process_queries.cpp.o" \
 "CMakeFiles/search_server.dir/read_input_functions.cpp.o" \
-"CMakeFiles/search_server.dir/remove_duplicates.cpp.o" \
 "CMakeFiles/search_server.dir/request_queue.cpp.o" \
 "CMakeFiles/search_server.dir/search_server.cpp.o" \
 "CMakeFiles/search_server.dir/string_processing.cpp.o" \
@@ -177,13 +177,14 @@ search_server_EXTERNAL_OBJECTS =
 
 search_server: CMakeFiles/search_server.dir/document.cpp.o
 search_server: CMakeFiles/search_server.dir/main.cpp.o
+search_server: CMakeFiles/search_server.dir/process_queries.cpp.o
 search_server: CMakeFiles/search_server.dir/read_input_functions.cpp.o
-search_server: CMakeFiles/search_server.dir/remove_duplicates.cpp.o
 search_server: CMakeFiles/search_server.dir/request_queue.cpp.o
 search_server: CMakeFiles/search_server.dir/search_server.cpp.o
 search_server: CMakeFiles/search_server.dir/string_processing.cpp.o
 search_server: CMakeFiles/search_server.dir/test_example_functions.cpp.o
 search_server: CMakeFiles/search_server.dir/build.make
+search_server: /usr/lib/x86_64-linux-gnu/libtbb.so.2
 search_server: CMakeFiles/search_server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable search_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/search_server.dir/link.txt --verbose=$(VERBOSE)

@@ -11,13 +11,13 @@
 },
 {
   "directory": "/home/nikolai/practicum/cpp-search-server/search-server/build",
-  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/read_input_functions.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.cpp",
-  "file": "/home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.cpp"
+  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/process_queries.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/process_queries.cpp",
+  "file": "/home/nikolai/practicum/cpp-search-server/search-server/process_queries.cpp"
 },
 {
   "directory": "/home/nikolai/practicum/cpp-search-server/search-server/build",
-  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/remove_duplicates.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/remove_duplicates.cpp",
-  "file": "/home/nikolai/practicum/cpp-search-server/search-server/remove_duplicates.cpp"
+  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/read_input_functions.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.cpp",
+  "file": "/home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.cpp"
 },
 {
   "directory": "/home/nikolai/practicum/cpp-search-server/search-server/build",
