@@ -1,42 +1,42 @@
 [
 {
   "directory": "/home/nikolai/practicum/cpp-search-server/search-server/build",
-  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/document.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/document.cpp",
+  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/search_server.dir/document.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/document.cpp",
   "file": "/home/nikolai/practicum/cpp-search-server/search-server/document.cpp"
 },
 {
   "directory": "/home/nikolai/practicum/cpp-search-server/search-server/build",
-  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/main.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/main.cpp",
+  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/search_server.dir/main.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/main.cpp",
   "file": "/home/nikolai/practicum/cpp-search-server/search-server/main.cpp"
 },
 {
   "directory": "/home/nikolai/practicum/cpp-search-server/search-server/build",
-  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/process_queries.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/process_queries.cpp",
+  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/search_server.dir/process_queries.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/process_queries.cpp",
   "file": "/home/nikolai/practicum/cpp-search-server/search-server/process_queries.cpp"
 },
 {
   "directory": "/home/nikolai/practicum/cpp-search-server/search-server/build",
-  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/read_input_functions.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.cpp",
+  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/search_server.dir/read_input_functions.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.cpp",
   "file": "/home/nikolai/practicum/cpp-search-server/search-server/read_input_functions.cpp"
 },
 {
   "directory": "/home/nikolai/practicum/cpp-search-server/search-server/build",
-  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/request_queue.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/request_queue.cpp",
+  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/search_server.dir/request_queue.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/request_queue.cpp",
   "file": "/home/nikolai/practicum/cpp-search-server/search-server/request_queue.cpp"
 },
 {
   "directory": "/home/nikolai/practicum/cpp-search-server/search-server/build",
-  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/search_server.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/search_server.cpp",
+  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/search_server.dir/search_server.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/search_server.cpp",
   "file": "/home/nikolai/practicum/cpp-search-server/search-server/search_server.cpp"
 },
 {
   "directory": "/home/nikolai/practicum/cpp-search-server/search-server/build",
-  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/string_processing.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/string_processing.cpp",
+  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/search_server.dir/string_processing.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/string_processing.cpp",
   "file": "/home/nikolai/practicum/cpp-search-server/search-server/string_processing.cpp"
 },
 {
   "directory": "/home/nikolai/practicum/cpp-search-server/search-server/build",
-  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -g   -std=gnu++17 -o CMakeFiles/search_server.dir/test_example_functions.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/test_example_functions.cpp",
+  "command": "/usr/bin/g++   -I/home/nikolai/practicum/cpp-search-server/search-server/.  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/search_server.dir/test_example_functions.cpp.o -c /home/nikolai/practicum/cpp-search-server/search-server/test_example_functions.cpp",
   "file": "/home/nikolai/practicum/cpp-search-server/search-server/test_example_functions.cpp"
 }
 ]
