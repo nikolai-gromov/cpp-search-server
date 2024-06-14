@@ -1,5 +1,0 @@
-/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/edit_cache.dir
-/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/package_source.dir
-/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/rebuild_cache.dir
-/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/package.dir
-/home/nikolai/practicum/cpp-search-server/search-server/build/CMakeFiles/search_server.dir
